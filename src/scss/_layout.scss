@@ -1,15 +1,36 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-auto-rows: 100px;
+  grid-auto-rows: max-content;
   grid-auto-flow: row dense;
   gap: 20px;
 }
 
 .item {
-  border: 3px solid blue;
+  border: 3px solid #7bd400;
   order: 2;
-  background-color: #fc06;
+  min-height: 100px;
+  background-color: #f3f3f3;
+}
+
+.news-1 {
+  min-height: 50vh;
+}
+
+.news-2 {
+  min-height: 25vh;
+}
+
+.news-3 {
+  min-height: 10vh;
+}
+
+.news-4 {
+  min-height: 5vh;
+}
+
+.news-1 .info-container {
+  padding: 20px;
 }
 
 @media (min-width: 768px) {
@@ -28,9 +49,12 @@
   }
 
   .col-3 {
-    grid-column-end: span 4;
+    grid-column-end: span 3;
   }
 
+  .col-4 {
+    grid-column-end: span 4;
+  }
   // .first {
   //   order: 1;
   //   background-color: #cf06;

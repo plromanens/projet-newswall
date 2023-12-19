@@ -42,3 +42,40 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+h3 {
+  color: #999999;
+  margin-bottom: 1%;
+}
+
+.mini-info {
+  color: #cccccc;
+}
+
+span {
+  color: #7bd400;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 1%;
+  font-size: 16px;
+}
+
+p {
+  margin-bottom: 1%;
+  font-size: 12px;
+}
+
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    display: none;
+  }
+}
