@@ -26,6 +26,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  margin: 0 10px;
 }
 
 a {
@@ -45,7 +46,11 @@ video {
 
 h3 {
   color: #999999;
-  margin-bottom: 1%;
+  margin-bottom: 0.28%;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .mini-info {
@@ -61,13 +66,19 @@ img {
 }
 
 h2 {
-  margin-bottom: 1%;
+  margin-bottom: 0.28%;
+  font-family: Open Sans;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 p {
-  margin-bottom: 1%;
+  margin-bottom: 0.28%;
+  font-family: Open Sans;
   font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 @media (min-width: 1200px) {
@@ -78,4 +89,12 @@ p {
   p {
     display: none;
   }
+
+  body {
+    margin: 0 140px;
+  }
+}
+
+.item {
+  border-radius: 10px;
 }
