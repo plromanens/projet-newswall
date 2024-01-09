@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: max-content;
-  grid-auto-flow: row dense;
+  // grid-auto-flow: row dense;
   gap: 20px;
 }
 
@@ -48,10 +48,6 @@
   .col-4 {
     grid-column-end: span 4;
   }
-  // .first {
-  //   order: 1;
-  //   background-color: #cf06;
-  // }
 }
 
 .row-1 {
