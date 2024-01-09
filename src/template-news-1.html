@@ -1,8 +1,11 @@
 <div class="{{ sizeimage }}">
-  <img class="img-news-1" src="{{newsimage}}?as=webp&width=2000px" alt="" />
+  <img class="img-news-1" src="{{ newsimage }}?as=webp&width=2000px" alt="" />
 </div>
 <div class="info-container {{ newsinfoclass }}">
-  <h3><span>{{ chemincategorie }}</span>/ {{ categorie }}</h3>
+  <h3>
+    <span class="{{ chemincategoriecolor }}">{{ chemincategorie }}</span>/
+    {{categorie}}
+  </h3>
   <h2>{{ title }}</h2>
   <p class="info-chapo">{{ chapo }}</p>
   <h3 class="mini-info">
