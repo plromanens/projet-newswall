@@ -57,12 +57,14 @@ h3 {
   color: #cccccc;
 }
 
-span {
-  color: #7bd400;
-}
+// span {
+//   color: #7bd400;
+// }
 
 img {
+  height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 h2 {
@@ -96,5 +98,31 @@ p {
 }
 
 .item {
+  order: 2;
+  background-color: #f3f3f3;
   border-radius: 10px;
 }
+
+.item-color-1 {
+  border: 3px solid #7bd400;
+}
+
+.item-color-2 {
+  border: 3px solid #e41e13;
+}
+
+.item-color-3 {
+  border: 3px solid #f40f97;
+}
+
+.item-color-4 {
+  border: 3px solid #00c1f6;
+}
+
+// .chemin-categorie-color-1 {
+//   color: #7bd400;
+// }
+
+// .chemin-categorie-color-2 {
+//   color: #e41e13;
+// }

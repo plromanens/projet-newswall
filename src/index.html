@@ -17,36 +17,77 @@
     ></script>
   </head>
   <body>
-    <!-- intégré la font -->
     <div class="grid">
-      <div class="item col-2 col-4 news-1">
-        <img src="img/Suisse-1.webp" alt="" />
-        <div class="info-container">
-          <h3><span>Suisse</span>/ CFF</h3>
-          <h2>Prêts aux CFF pas soumis au frein à l’endettement</h2>
-          <p>
-            Le financement durable des CFF doit être garanti. Le National
-            soutient le versement à la compagnie ferroviaire de 1,15 milliard de
-            francs pour réduire son endettement. Il refuse par contre que les
-            futurs prêts soient soumis à la règle du frein à l’endettement.
-          </p>
-          <h3 class="mini-info">
-            <i class="fa-regular fa-star"></i> /10
-            <i class="fa-regular fa-comment"></i>/12.12.2023/13:15
-          </h3>
-        </div>
+      <div class="item item-color-1 col-2 col-4 news-1">
+        <include src="template-news-1.html">
+          { "sizeimage": "size-image-1", "newsimage": "img/Suisse-1.webp",
+          "newsinfoclass": "chapo-visible", "chemincategorie": "Suisse",
+          "categorie": "CFF", "title": "Prêts aux CFF pas soumis au frein à
+          l’endettement", "chapo": "Le financement durable des CFF doit être
+          garanti. Le National soutient le versement à la compagnie ferroviaire
+          de 1,15 milliard de francs pour réduire son endettement. Il refuse par
+          contre que les futurs prêts soient soumis à la règle du frein à
+          l’endettement.", "numbercomment" : "10", "date": "12.12.23", "heure":
+          "13:15"}
+        </include>
       </div>
-      <div class="item col-2 news-3"></div>
-      <div class="item col-2 news-3"></div>
-      <div class="item col-2 news-2"></div>
-      <div class="item col-2 news-2"></div>
-      <div class="item col-2 news-2"></div>
-      <div class="item col-3 news-4"></div>
-      <div class="item col-3 news-4"></div>
-      <div class="item col-3 news-4"></div>
-      <div class="item col-2 news-2"></div>
-      <div class="item col-2 news-2"></div>
-      <div class="item col-2 news-2">first</div>
+      <div class="item item-color-1 col-2 news-3">
+        <include src="template-news-1.html">
+          {"sizeimage": "size-image-2", "newsimage": "img/Suisse-2.png",
+          "newsinfoclass": "", "chemincategorie": "Suisse", "categorie": "CFF",
+          "title": "499 gares de Suisse violent la loi", "chapo": "",
+          "numbercomment" : "1", "date": "18.12.2023", "heure": "06:21"}
+        </include>
+      </div>
+      <div class="item item-color-1 col-2 news-3">
+        <include src="template-news-1.html">
+          {"sizeimage": "size-image-2", "newsimage": "img/Suisse-3.png",
+          "newsinfoclass": "", "chemin-categorie-color-1" :
+          "chemin-categorie-color-1", "chemincategorie": "Suisse", "categorie":
+          "CFF", "title": "Le nouvel abo des CFF vaut-il le coup? Vous le saurez
+          avec cette astuce", "chapo": "", "numbercomment" : "10", "date":
+          "12.12.2023", "heure": "13:16"}
+        </include>
+      </div>
+      <div class="item item-color-2 col-2 news-2">
+        <include src="template-news-1.html">
+          {"sizeimage": "size-image-3", "newsimage": "img/International-1.webp",
+          "newsinfoclass": "", "chemincategorie": "International", "categorie":
+          "Birmanie", "title": "La Birmanie devient le premier producteur
+          mondial d'opium", "chapo": "", "numbercomment" : "10", "date":
+          "14.12.2023", "heure": "08:18"}
+        </include>
+      </div>
+      <div class="item item-color-2 col-2 news-2">
+        <include src="template-news-1.html">
+          {"sizeimage": "size-image-3", "newsimage": "img/International-2.webp",
+          "newsinfoclass": "", "chemincategorie": "International", "categorie":
+          "Donald Trump", "title": "La cour suprême appelée à statuer en urgence
+          sur l'immunité de Trump", "chapo": "", "numbercomment" : "10", "date":
+          "16.12.2023", "heure": "07:00"}
+        </include>
+      </div>
+      <div class="item item-color-3 col-4 news-4"></div>
+      <div class="item item-color-3 col-4 news-4"></div>
+      <div class="item item-color-3 col-4 news-4"></div>
+      <div class="item item-color-4 col-2 news-2">
+        <include src="template-news-1.html">
+          {"sizeimage": "size-image-3", "newsimage": "img/Economie-1.png",
+          "newsinfoclass": "", "chemincategorie": "Economie", "categorie":
+          "Prochain exposition nationalee", "title": "La pression monte à Berne
+          pour organiser la prochaine expo nationale", "chapo": "",
+          "numbercomment" : "4", "date": "07.12.2023", "heure": "15:22"}
+        </include>
+      </div>
+      <div class="item item-color-4 col-2 news-2">
+        <include src="template-news-1.html">
+          {"sizeimage": "size-image-3", "newsimage": "img/Economie-2.webp",
+          "newsinfoclass": "", "chemincategorie": "Economie", "categorie":
+          "Analyse", "title": "La France dépasse l'Allemagne comme moteur
+          économique et a une crainte", "chapo": "", "numbercomment" : "6",
+          "date": "18.12.2023", "heure": "12:08"}
+        </include>
+      </div>
     </div>
 
     <script src="js/main.js" type="module"></script>

@@ -6,13 +6,6 @@
   gap: 20px;
 }
 
-.item {
-  border: 3px solid #7bd400;
-  order: 2;
-  min-height: 100px;
-  background-color: #f3f3f3;
-}
-
 .news-1 {
   min-height: 50vh;
 }
@@ -29,7 +22,7 @@
   min-height: 5vh;
 }
 
-.news-1 .info-container {
+.item .info-container {
   padding: 9px 12px;
 }
 
